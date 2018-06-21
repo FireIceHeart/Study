@@ -154,6 +154,7 @@ namespace Study
             int j = (int)o;
             //判断类型是否相同
             bool boo = o is Object;
+            string str = "git check";
             Console.WriteLine(i.GetType() == o.GetType());
             Console.ReadKey();
         }
